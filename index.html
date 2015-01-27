@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>property management</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Willis</li>
+            <li><a id="plus" data-toggle="modal" data-target="#basicModal">+</a></li>
+        </ul>
+    </header>
+    <div id="inputHolder"><input id="search" type="text" ></div>
+
+    <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&Cross;</button>
+                    <h2 class="modal-title" id="myModalLabel">New Unit</h2>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <input type="text" name="type" placeholder="type">
+                        <input type="text" name="area" placeholder="area">
+                        <input type="text" name="floor" placeholder="floor">
+                        <input type="text" name="alpha" placeholder="alpha">
+                        <input type="text" name="rooms" placeholder="rooms">
+                        <input type="text" name="square" placeholder="square">
+                        <input type="text" name="price" placeholder="price">
+                        <input type="text" name="pricePerFeet" placeholder="pricePerFeet">
+                        <input type="text" name="parking" placeholder="parking">
+                        <input type="text" name="status" placeholder="status">
+                        <input type="text" name="commission" placeholder="commission">
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="unit">
+            <div class="showInfo">
+                <div class="neighborhood">Ocean Garden</div>
+                <div class="sellOrRent">Sell</div>
+            </div>
+            <div class="hiddenInfo">
+                <ul class="firstRow">
+                    <li class="type">tower</li>
+                    <li class="area">Taipa</li>
+                    <li class="floor">37</li>
+                    <li class="alpha">A</li>
+                    <li class="rooms">2</li>
+                    <li class="square">1,013</li>
+                </ul>
+                <ul class="secondRow">
+                    <li class="price">891</li>
+                    <li class="pricePerFeet">8,880</li>
+                    <li class="rent">None</li>
+                    <li class="parking">None</li>
+                    <li class="status">Selling</li>
+                    <li class="commission">Unknown</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="unit">
+            <div class="showInfo">
+                <div class="neighborhood">Ocean Garden</div>
+                <div class="sellOrRent">Sell</div>
+            </div>
+            <div class="hiddenInfo">
+                <ul class="firstRow">
+                    <li class="type">dom</li>
+                    <li class="area">Taipa</li>
+                    <li class="floor">37</li>
+                    <li class="alpha">A</li>
+                    <li class="rooms">2</li>
+                    <li class="square">1,013</li>
+                </ul>
+                <ul class="secondRow">
+                    <li class="price">891</li>
+                    <li class="pricePerFeet">8,880</li>
+                    <li class="rent">None</li>
+                    <li class="parking">None</li>
+                    <li class="status">Selling</li>
+                    <li class="commission">Unknown</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="unit">
+            <div class="showInfo">
+                <div class="neighborhood">Ocean Garden</div>
+                <div class="sellOrRent">Sell</div>
+            </div>
+            <div class="hiddenInfo">
+                <ul class="firstRow">
+                    <li class="type">house</li>
+                    <li class="area">Taipa</li>
+                    <li class="floor">37</li>
+                    <li class="alpha">A</li>
+                    <li class="rooms">2</li>
+                    <li class="square">1,013</li>
+                </ul>
+                <ul class="secondRow">
+                    <li class="price">891</li>
+                    <li class="pricePerFeet">8,880</li>
+                    <li class="rent">None</li>
+                    <li class="parking">None</li>
+                    <li class="status">Selling</li>
+                    <li class="commission">Unknown</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="unit">
+            <div class="showInfo">
+                <div class="neighborhood">Ocean Garden</div>
+                <div class="sellOrRent">Sell</div>
+            </div>
+            <div class="hiddenInfo">
+                <ul class="firstRow">
+                    <li class="type">apart</li>
+                    <li class="area">Taipa</li>
+                    <li class="floor">37</li>
+                    <li class="alpha">A</li>
+                    <li class="rooms">2</li>
+                    <li class="square">1,013</li>
+                </ul>
+                <ul class="secondRow">
+                    <li class="price">891</li>
+                    <li class="pricePerFeet">8,880</li>
+                    <li class="rent">None</li>
+                    <li class="parking">None</li>
+                    <li class="status">Selling</li>
+                    <li class="commission">Unknown</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
