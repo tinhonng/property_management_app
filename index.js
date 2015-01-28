@@ -34,6 +34,13 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         },1);
 
-
     });
+    document.getElementById("confirm").addEventListener('click', function(){
+        var newUnit = [];
+        var formInputs = document.forms[0].getElementsByTagName('input');
+        Array.prototype.forEach.call(formInputs, function(e){
+            newUnit[e.name] = e.value;
+        });
+    });
+
 });
