@@ -11,11 +11,12 @@
 <body>
     <header>
         <ul>
-            <li>Willis</li>
+            <li><i class="fa fa-home "></i></li>
+
             <li><a id="plus" data-toggle="modal" data-target="#basicModal">+</a></li>
         </ul>
     </header>
-    <div id="inputHolder"><input id="search" type="text" ></div>
+    <div id="inputHolder"><input id="search" type="text" placeholder="搜尋"></div>
 
     <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
         <div class="modal-dialog">
@@ -30,37 +31,42 @@
                         <input type="text" name="area" placeholder="地區">
                         <input type="text" name="neighborhood" placeholder="屋苑">
                         <input type="text" name="building" placeholder="座名">
-                        <input type="text" name="floor" placeholder="樓層">
+                        <input type="text" name="floorSet" placeholder="樓層">
                         <input type="text" name="alpha" placeholder="單位">
                         <input type="text" name="rooms" placeholder="房數">
                         <input type="text" name="square" placeholder="面積">
                         <input type="text" name="price" placeholder="售價">
                         <input type="text" name="pricePerFeet" placeholder="呎價">
+                        <input type="text" name="rent" placeholder="租金">
                         <input type="text" name="parking" placeholder="車位">
                         <input type="text" name="status" placeholder="狀態">
                         <input type="text" name="commission" placeholder="佣金">
+                        <input type="text" name="sellOrRent" placeholder="售/租">
+                        <input type="text" name="phoneNumber" placeholder="電話">
+                        <input type="text" name="client_name" placeholder="姓名">
                     </form>
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">關</button>
+                    <button id="close" type="button" class="btn btn-default" data-dismiss="modal">關</button>
                     <button id="confirm" type="button" class="btn btn-primary">確認</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <section>
+    <section id="list">
         <div class="unit">
             <div class="showInfo">
-                <div class="neighborhood">皇族</div>
+                <div class="neighborhood">海洋花園</div>
+                <div class="building">玫瑰苑</div>
                 <div class="sellOrRent">售</div>
             </div>
-            <div class="hiddenInfo">
+            <div class="otherShowInfo">
                 <ul class="firstRow">
                     <li class="type">住宅</li>
                     <li class="area">氹仔</li>
-                    <li class="floor">37</li>
+                    <li class="floorSet">37</li>
                     <li class="alpha">A</li>
                     <li class="rooms">2</li>
                     <li class="square">1,013</li>
@@ -72,6 +78,12 @@
                     <li class="parking">無</li>
                     <li class="status">售</li>
                     <li class="commission">無</li>
+                </ul>
+            </div>
+            <div class="hiddenInfo">
+                <ul class="hiddenInfo_ul">
+                    <li class="phoneNumber"><i class="fa fa-phone">&nbsp;</i><a href="tel:28813592">28813592</a></li>
+                    <li class="client_name"><i class="fa fa-user ">&nbsp;</i>吳先生</li>
                 </ul>
             </div>
         </div>
@@ -79,13 +91,14 @@
         <div class="unit">
             <div class="showInfo">
                 <div class="neighborhood">皇族</div>
+                <div class="building">無</div>
                 <div class="sellOrRent">售</div>
             </div>
-            <div class="hiddenInfo">
+            <div class="otherShowInfo">
                 <ul class="firstRow">
                     <li class="type">住宅</li>
                     <li class="area">氹仔</li>
-                    <li class="floor">37</li>
+                    <li class="floorSet">37</li>
                     <li class="alpha">A</li>
                     <li class="rooms">2</li>
                     <li class="square">1,013</li>
@@ -97,6 +110,12 @@
                     <li class="parking">無</li>
                     <li class="status">售</li>
                     <li class="commission">無</li>
+                </ul>
+            </div>
+            <div class="hiddenInfo">
+                <ul>
+                    <li class="phoneNumber"><i class="fa fa-phone">&nbsp;</i><a href="tel:28813592">28813592</a></li>
+                    <li class="client_name"><i class="fa fa-user ">&nbsp;</i>吳先生</li>
                 </ul>
             </div>
         </div>
@@ -104,13 +123,14 @@
         <div class="unit">
             <div class="showInfo">
                 <div class="neighborhood">皇族</div>
+                <div class="building">無</div>
                 <div class="sellOrRent">售</div>
             </div>
-            <div class="hiddenInfo">
+            <div class="otherShowInfo">
                 <ul class="firstRow">
                     <li class="type">住宅</li>
                     <li class="area">氹仔</li>
-                    <li class="floor">37</li>
+                    <li class="floorSet">37</li>
                     <li class="alpha">A</li>
                     <li class="rooms">2</li>
                     <li class="square">1,013</li>
@@ -122,6 +142,12 @@
                     <li class="parking">無</li>
                     <li class="status">售</li>
                     <li class="commission">無</li>
+                </ul>
+            </div>
+            <div class="hiddenInfo">
+                <ul>
+                    <li class="phoneNumber"><i class="fa fa-phone">&nbsp;</i><a href="tel:28813592">28813592</a></li>
+                    <li class="client_name"><i class="fa fa-user ">&nbsp;</i>吳先生</li>
                 </ul>
             </div>
         </div>
@@ -129,13 +155,14 @@
         <div class="unit">
             <div class="showInfo">
                 <div class="neighborhood">皇族</div>
+                <div class="building">無</div>
                 <div class="sellOrRent">售</div>
             </div>
-            <div class="hiddenInfo">
+            <div class="otherShowInfo">
                 <ul class="firstRow">
                     <li class="type">住宅</li>
                     <li class="area">氹仔</li>
-                    <li class="floor">37</li>
+                    <li class="floorSet">37</li>
                     <li class="alpha">A</li>
                     <li class="rooms">2</li>
                     <li class="square">1,013</li>
@@ -147,6 +174,12 @@
                     <li class="parking">無</li>
                     <li class="status">售</li>
                     <li class="commission">無</li>
+                </ul>
+            </div>
+            <div class="hiddenInfo">
+                <ul>
+                  <li class="phoneNumber"><i class="fa fa-phone">&nbsp;</i><a href="tel:28813592">28813592</a></li>
+                  <li class="client_name"><i class="fa fa-user ">&nbsp;</i>吳先生</li>
                 </ul>
             </div>
         </div>
