@@ -22,63 +22,18 @@
     <favorites_list name="willisApps" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.4842995">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.26451612" vertical-offset="1193" max-vertical-offset="2970">
-                  <caret line="85" column="80" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="80" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="photo_splash_signin_1141x759_v4.jpg" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/photo_splash_signin_1141x759_v4.jpg">
-              <provider selected="true" editor-type-id="images">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="2550">
-                  <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.66101694" vertical-offset="2151" max-vertical-offset="2550">
-                  <caret line="159" column="108" selection-start-line="159" selection-start-column="108" selection-end-line="159" selection-end-column="108" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="3180">
-                  <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.720339" vertical-offset="1960" max-vertical-offset="2550">
+              <caret line="159" column="108" selection-start-line="159" selection-start-column="108" selection-end-line="159" selection-end-column="108" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -237,10 +192,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="402" y="22" width="1110" height="935" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.020118343" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22366863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16161616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -278,11 +233,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/photo_splash_signin_1141x759_v4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="765">
@@ -307,11 +257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photo_splash_signin_1141x759_v4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="765">
@@ -334,11 +279,6 @@
           <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photo_splash_signin_1141x759_v4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
@@ -365,11 +305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photo_splash_signin_1141x759_v4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="765">
@@ -392,11 +327,6 @@
           <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photo_splash_signin_1141x759_v4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
@@ -423,11 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photo_splash_signin_1141x759_v4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="765">
@@ -450,11 +375,6 @@
           <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photo_splash_signin_1141x759_v4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
@@ -481,11 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photo_splash_signin_1141x759_v4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="660">
@@ -508,11 +423,6 @@
           <caret line="31" column="87" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photo_splash_signin_1141x759_v4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
@@ -539,11 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photo_splash_signin_1141x759_v4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="660">
@@ -566,11 +471,6 @@
           <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photo_splash_signin_1141x759_v4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
@@ -605,11 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photo_splash_signin_1141x759_v4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="165">
@@ -618,30 +513,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photo_splash_signin_1141x759_v4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="3180">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.16371681" vertical-offset="1268" max-vertical-offset="2970">
+          <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26451612" vertical-offset="1193" max-vertical-offset="2970">
-          <caret line="85" column="80" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="80" />
+        <state vertical-scroll-proportion="0.26699835" vertical-offset="289" max-vertical-offset="3180">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66101694" vertical-offset="2151" max-vertical-offset="2550">
+        <state vertical-scroll-proportion="0.720339" vertical-offset="1960" max-vertical-offset="2550">
           <caret line="159" column="108" selection-start-line="159" selection-start-column="108" selection-end-line="159" selection-end-column="108" />
           <folding />
         </state>
